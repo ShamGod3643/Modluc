@@ -1,0 +1,448 @@
+#homeContent {
+  max-height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.welcome {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 54.5vw;
+  position: relative;
+}
+
+.welcomeDiv {
+  background-color: #0e082c;
+  background-size: cover;
+  width: 37.2vw;
+  height: 28vw;
+  border-radius: 2vw;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  margin-top: 10.7%;
+  top: 0;
+  left: 51%;
+  margin-right: 10%;
+}
+
+.welcomeDiv:before {
+  content: "";
+  background: url(/public/img/eclipse.png) top center;
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+}
+
+.welcomeTxt {
+  width: 29.5vw;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 1.3vw;
+  font-weight: 500;
+  line-height: 2vw;
+  letter-spacing: -0.015em;
+  margin-top: 3vw;
+  text-align: left;
+  position: absolute;
+}
+
+.services {
+  margin-top: 10%;
+  max-height: 100%;
+  position: relative;
+}
+
+.cloudInfrastructureDiv {
+  width: 37vw;
+  height: 33.5vw;
+  border-radius: 2vw;
+  background-color: #f6f7f9;
+  left: 20%;
+  bottom: 0;
+  position: relative;
+  margin-bottom: 7%;
+}
+
+.cloudInfrastructureDiv:hover {
+  box-shadow: 1px 1px 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.cloudInfrastructureTitleDiv {
+  width: 100%;
+}
+
+.cloudInfrastructureTitle {
+  width: 100%;
+  position: absolute;
+  font-family: Outfit;
+  font-size: 3.2vw;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-top: 3vw;
+  left: 10%;
+  color: #0e082c;
+}
+
+.cloudInfrastructureTxt {
+  width: 30vw;
+  position: absolute;
+  font-family: Outfit;
+  font-size: 1.6vw;
+  font-weight: 600;
+  line-height: 2.3vw;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-top: 7vw;
+  left: 10%;
+  color: #0e082c;
+}
+
+.cloudInfrastructure {
+  margin-top: 10%;
+  max-width: 90%;
+  height: 90%;
+  position: relative;
+}
+
+.readMore {
+  width: 30%;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+
+.cloudInfrastructureImg {
+  width: 16vw;
+  top: 56.1%;
+  left: 52%;
+  position: absolute;
+}
+
+.businessProcessAutomationDiv {
+  width: 37vw;
+  height: 33.5vw;
+  border-radius: 2vw;
+  background-color: #f6f7f9;
+  bottom: 0;
+  position: relative;
+  margin-left: 1vw;
+}
+
+.businessProcessAutomationDiv:hover {
+  box-shadow: 1px 1px 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.businessProcessAutomationTitleDiv {
+  width: 100%;
+}
+
+.businessProcessAutomationTitle {
+  width: 100%;
+  position: absolute;
+  font-family: Outfit;
+  font-size: 3.2vw;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-top: 3vw;
+  left: 10%;
+  color: #0e082c;
+}
+
+.businessProcessAutomationTxt {
+  width: 30vw;
+  position: absolute;
+  font-family: Outfit;
+  font-size: 1.6vw;
+  font-weight: 600;
+  line-height: 2.3vw;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-top: 11vw;
+  left: 10%;
+  color: #0e082c;
+}
+
+.businessProcessAutomation {
+  margin-top: 10%;
+  max-width: 90%;
+  height: 90%;
+  position: relative;
+}
+
+.businessProcessAutomationImg {
+  width: 22vw;
+  top: 57%;
+  left: 40%;
+  position: absolute;
+}
+
+.digitalAdvisoryDiv {
+  width: 37vw;
+  height: 33.5vw;
+  border-radius: 2vw;
+  background-color: #f6f7f9;
+  left: 20%;
+  bottom: 0;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.digitalAdvisoryDiv:hover {
+  box-shadow: 1px 1px 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.digitalAdvisoryTitleDiv {
+  width: 100%;
+}
+
+.digitalAdvisoryTitle {
+  width: 100%;
+  position: absolute;
+  font-family: Outfit;
+  font-size: 3.2vw;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-top: 3vw;
+  left: 10%;
+  color: #0e082c;
+}
+
+.digitalAdvisoryTxt {
+  width: 30vw;
+  position: absolute;
+  font-family: Outfit;
+  font-size: 1.6vw;
+  font-weight: 600;
+  line-height: 2.3vw;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-top: 7vw;
+  left: 10%;
+  color: #0e082c;
+}
+
+.digitalAdvisory {
+  margin-top: 10%;
+  max-width: 90%;
+  height: 90%;
+  position: relative;
+}
+
+.digitalAdvisoryImg {
+  width: 16vw;
+  top: 53.5%;
+  left: 56.7%;
+  position: absolute;
+  border-bottom-right-radius: 2vw;
+}
+
+.modernWorkPlaceDiv {
+  width: 37vw;
+  height: 33.5vw;
+  border-radius: 2vw;
+  background-color: #f6f7f9;
+  bottom: 0;
+  margin-left: 1vw;
+  position: relative;
+}
+
+.modernWorkPlaceDiv:hover {
+  box-shadow: 1px 1px 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.modernWorkPlaceTitleDiv {
+  width: 100%;
+}
+
+.modernWorkPlaceTitle {
+  width: 100%;
+  position: absolute;
+  font-family: Outfit;
+  font-size: 3.2vw;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-top: 3vw;
+  left: 10%;
+  color: #0e082c;
+}
+
+.modernWorkPlaceTxt {
+  width: 30vw;
+  position: absolute;
+  font-family: Outfit;
+  font-size: 1.6vw;
+  font-weight: 600;
+  line-height: 2.3vw;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-top: 7vw;
+  left: 10%;
+  color: #0e082c;
+}
+
+.modernWorkPlace {
+  margin-top: 10%;
+  max-width: 90%;
+  height: 90%;
+  position: relative;
+}
+
+.modernWorkPlaceImg {
+  width: 22vw;
+  top: 54.9%;
+  left: 40%;
+  position: absolute;
+  border-bottom-right-radius: 2vw;
+}
+
+.trustedCompaniesTitle {
+  width: 36vw;
+  font-family: Outfit;
+  font-size: 3.47vw;
+  font-weight: 700;
+  line-height: 4vw;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 25%;
+}
+
+.trustedCompaniesTxt {
+  width: 35vw;
+  font-family: Outfit;
+  font-size: 2vw;
+  font-weight: 600;
+  line-height: 2.8vw;
+  letter-spacing: -0.015em;
+  text-align: left;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+.accomplishments {
+  align-items: center;
+  display: flex;
+  position: relative;
+  margin-left: 20%;
+  margin-top: 3%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.satisfiedClients {
+  width: 7vw;
+  font-family: Outfit;
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 4vw;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin: 0;
+}
+
+.satisfiedClientsMini {
+  width: 7vw;
+  font-family: Outfit;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 2vw;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin: 0;
+  color: #75718b;
+}
+
+.projectsCompleted {
+  width: 8vw;
+  font-family: Outfit;
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 4vw;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin: 0;
+}
+
+.projectsCompletedMini {
+  width: 8vw;
+  font-family: Outfit;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 2vw;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin: 0;
+  color: #75718b;
+}
+
+.increaseVolume {
+  width: 10vw;
+  font-family: Outfit;
+  font-size: 3vw;
+  font-weight: 600;
+  line-height: 4vw;
+  letter-spacing: -0.015em;
+  text-align: right;
+  margin: 0;
+}
+
+.increaseVolumeMini {
+  width: 11vw;
+  font-family: Outfit;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 2vw;
+  letter-spacing: -0.015em;
+  text-align: center;
+  margin: 0;
+  color: #75718b;
+}
+
+.line {
+  content: "";
+  width: 0.1vw;
+  height: 9vw;
+  background-color: #000;
+  position: relative;
+  top: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.tCLogos {
+  width: 35vw;
+  float: right;
+  margin-right: 22%;
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.tCLogoDiv {
+  margin-bottom: 4%;
+}
+
+.tCLogo {
+  width: 11vw;
+}
+
+.tCLogo:hover {
+  box-shadow: #000 0px 0px 15px;
+  border-radius: 40px;
+}

@@ -1,0 +1,161 @@
+#servicesContent1 {
+  max-height: 100%;
+  background-color: #001b23;
+  position: relative;
+}
+#servicesContent2 {
+  max-height: 100%;
+  background-color: #fff;
+  position: relative;
+}
+.cloudInfrastructure {
+  margin-top: 10%;
+  margin-left: 20%;
+  position: relative;
+}
+.cloudInfrastructureImg {
+  width: 93%;
+  border-radius: 14.625755310058594px;
+}
+#cloudInfrastructure {
+  width: 75%;
+  margin-top: 10%;
+  margin-left: 5%;
+  position: relative;
+}
+.cloudInfrastructureTitle {
+  width: 100%;
+  font-family: Outfit;
+  font-size: 2.7vw;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.cloudInfrastructureDivTxt {
+  margin-top: 5%;
+  margin-left: 5%;
+  position: relative;
+}
+.cloudInfrastructureTxt {
+  width: 79%;
+  font-family: Charlie Display;
+  font-size: 1vw;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.businessProcessAutomation {
+  margin-top: 10%;
+  margin-left: 5%;
+  position: relative;
+}
+.businessProcessAutomationImg {
+  width: 75%;
+  border-radius: 14.625755310058594px;
+}
+#businessProcessAutomation {
+  margin-top: 10%;
+  margin-left: 20%;
+  position: relative;
+}
+.businessProcessAutomationTitle {
+  width: 100%;
+  font-family: Outfit;
+  font-size: 2.7vw;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.businessProcessAutomationDivTxt {
+  margin-top: 5%;
+  margin-left: 20%;
+  position: relative;
+  margin-bottom: 10%;
+}
+.businessProcessAutomationTxt {
+  width: 93%;
+  font-family: Charlie Display;
+  font-size: 1vw;
+  font-weight: 500;
+  line-height: 125%;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.digitalAdvisory {
+  margin-top: 10%;
+  margin-left: 5%;
+  position: relative;
+}
+.digitalAdvisoryImg {
+  width: 75%;
+  border-radius: 14.625755310058594px;
+}
+#digitalAdvisory {
+  margin-top: 10%;
+  margin-left: 20%;
+  position: relative;
+}
+.digitalAdvisoryTitle {
+  width: 90%;
+  font-family: Outfit;
+  font-size: 2.7vw;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0em;
+  color: #000;
+}
+.digitalAdvisoryDivTxt {
+  margin-top: 5%;
+  margin-left: 20%;
+  position: relative;
+}
+.digitalAdvisoryTxt {
+  width: 93%;
+  font-family: Charlie Display;
+  font-size: 1vw;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0em;
+}
+.modernWorkPlace {
+  margin-top: 10%;
+  margin-left: 20%;
+  position: relative;
+}
+.modernWorkPlaceImg {
+  width: 90%;
+  border-radius: 14.625755310058594px;
+}
+#modernWorkPlace {
+  width: 75%;
+  margin-top: 10%;
+  margin-left: 5%;
+  position: relative;
+}
+.modernWorkPlaceTitle {
+  width: 70%;
+  font-family: Outfit;
+  font-size: 2.7vw;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0em;
+  color: #000;
+  position: relative;
+}
+.modernWorkPlaceDivTxt {
+  margin-top: 5%;
+  margin-left: 5%;
+  position: relative;
+  margin-bottom: 10%;
+}
+.modernWorkPlaceTxt {
+  width: 79%;
+  font-family: Charlie Display;
+  font-size: 1vw;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0em;
+}

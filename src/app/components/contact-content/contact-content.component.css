@@ -1,0 +1,137 @@
+#contact {
+  width: 100%;
+  height: max-content;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.contact-container {
+  width: 80%;
+}
+.mapDiv {
+  height: 100%;
+  width: 100%;
+}
+.map {
+  width: 100%;
+  height: 25vw;
+  position: relative;
+  margin-bottom: 6%;
+}
+.enquires {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  margin-bottom: 5vw;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+#name,
+#email {
+  width: 30vw;
+  height: 4vw;
+  padding: 2%;
+  border-radius: 0.5vw;
+  border: 1px solid;
+  border-color: #d6d5d5;
+  margin-bottom: 2vw;
+}
+#message {
+  width: 30vw;
+  height: 20vw;
+  padding: 2%;
+  border-radius: 0.5vw;
+  border: 1px solid;
+  gap: 10px;
+  border-color: #d6d5d5;
+  margin-bottom: 2vw;
+}
+::placeholder {
+  font-family: Charlie Display;
+  font-weight: 500;
+  letter-spacing: 0em;
+  color: #000;
+  font-size: 1vw;
+}
+#submit {
+  width: 10vw;
+  height: 3.5vw;
+  border-radius: 0.5vw;
+  background-color: #fd5457;
+  color: #fff;
+  position: relative;
+  border: 0;
+}
+#submitTxt {
+  font-family: Charlie Display;
+  font-size: 1vw;
+  font-weight: 600;
+  letter-spacing: 0em;
+  margin: 0;
+}
+.info {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.location {
+  width: 100%;
+  margin-top: 5%;
+  justify-content: right;
+  display: flex;
+}
+.locationLogo {
+  width: 1.5vw;
+  margin-right: 1vw;
+}
+.address {
+  font-family: Charlie Display;
+  font-weight: 500;
+  font-size: 0.95vw;
+  letter-spacing: 0em;
+  color: #0f0631;
+}
+.contact {
+  width: 100%;
+  margin-top: 5%;
+  justify-content: right;
+  display: flex;
+  flex-direction: row;
+}
+.phoneLogo {
+  width: 1.5vw;
+  margin-right: 1vw;
+}
+.phone-number-1 {
+  font-family: Charlie Display;
+  font-weight: 500;
+  font-size: 0.95vw;
+  letter-spacing: 0em;
+  color: #0f0631;
+  margin-right: 1vw;
+}
+.phone-number-2 {
+  font-family: Charlie Display;
+  font-weight: 500;
+  font-size: 0.95vw;
+  letter-spacing: 0em;
+  color: #0f0631;
+  margin-right: 10vw;
+}
+@media (max-width: 768px) {
+  .map {
+    margin-top: 0;
+    height: 550px;
+  }
+  #name,
+  #email,
+  #message {
+    padding-top: 0;
+  }
+  ::placeholder {
+    font-size: 2vw;
+  }
+}

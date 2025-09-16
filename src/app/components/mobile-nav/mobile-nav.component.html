@@ -1,0 +1,26 @@
+<button (click)="toggleNavbar()" class="navToggle">
+  <i class="bi bi-list"></i>
+</button>
+<section id="mobileNavBar" [ngClass]="{ 'is-open': isOpen }">
+  <div class="container-fluid">
+    <div class="modlucLogo">
+      <a routerLink="/home" (click)="toggleNavbar()"
+        ><img
+          src="/img/mobileNavBarLogo.png"
+          alt="Modluc Nav Logo"
+          class="modlucLogoImg"
+      /></a>
+    </div>
+    <div class="navMenu">
+      <a routerLink="/home" (click)="toggleNavbar()" class="home">Home</a
+      ><a routerLink="/services" (click)="toggleNavbar()" class="services"
+        >Services</a
+      >
+      <div class="contact-us">
+        <a routerLink="/contact" (click)="toggleNavbar()" class="contact-us-btn"
+          >Contact Us</a
+        >
+      </div>
+    </div>
+  </div>
+</section>

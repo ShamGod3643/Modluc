@@ -1,0 +1,111 @@
+@import "https://fonts.googleapis.com/css?family=Outfit";
+
+#home {
+  max-width: 100%;
+  height: 100%;
+  background-color: #0e082c;
+  background-size: cover;
+  position: relative;
+}
+
+#home:before {
+  content: "";
+  background: url(../../../../public/img/eclipse.png) top center;
+  background-size: cover;
+  position: absolute;
+  inset: 0;
+}
+
+.rectangleDiv {
+  width: 100%;
+}
+
+.rectangle {
+  width: 1.5vw;
+  margin-top: 12.5vw;
+  margin-left: 23%;
+  position: relative;
+}
+
+.homeWriteUpWhite {
+  width: 35vw;
+  font-family: Outfit;
+  font-size: 3.9vw;
+  font-weight: 600;
+  line-height: 5vw;
+  letter-spacing: -0.015em;
+  color: #fff;
+  margin-top: 5%;
+  margin-left: 20%;
+  position: relative;
+}
+
+.homeWriteUpRed {
+  color: #ff4e51;
+}
+
+.homeWriteUp2 {
+  width: 35vw;
+  font-family: Outfit;
+  font-size: 1.6vw;
+  font-weight: 500;
+  line-height: 2.3vw;
+  letter-spacing: -0.015em;
+  color: #fff;
+  margin-top: 1vw;
+  margin-left: 20%;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contactUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff4e51;
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 1.25vw;
+  letter-spacing: 0.06vw;
+  width: 20%;
+  height: 5%;
+  margin-top: 1vw;
+  margin-left: 20%;
+  position: relative;
+  border-radius: 0.8vw;
+}
+
+.contactUs:hover {
+  background-color: #fff;
+  color: #fd5457;
+  transition: all 0.3s ease-in-out;
+}
+
+.producedBy {
+  font-family: Outfit;
+  font-size: 1.4vw;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  margin-top: 3vw;
+  margin-left: 21%;
+  color: #fff;
+  position: relative;
+}
+
+.microsoftLogo {
+  width: 13.5vw;
+  margin-left: 18%;
+  margin-bottom: 10%;
+  position: relative;
+}
+
+.groupImg {
+  margin-top: 29%;
+  width: 80%;
+  position: relative;
+  margin-bottom: 3%;
+}
