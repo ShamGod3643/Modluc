@@ -10,7 +10,7 @@
 
 #home:before {
   content: "";
-  background: url(../../../../public/img/eclipse.png) top center;
+  background: url(/img/eclipse.png) top center;
   background-size: cover;
   position: absolute;
   inset: 0;

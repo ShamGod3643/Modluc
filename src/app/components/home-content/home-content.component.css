@@ -2,6 +2,7 @@
   max-height: 100%;
   background-color: #fff;
   position: relative;
+  margin-bottom: 5%;
 }
 
 .welcome {
@@ -28,7 +29,7 @@
 
 .welcomeDiv:before {
   content: "";
-  background: url(/public/img/eclipse.png) top center;
+  background: url(/img/eclipse.png) top center;
   background-size: cover;
   position: absolute;
   inset: 0;
@@ -302,147 +303,4 @@
   left: 40%;
   position: absolute;
   border-bottom-right-radius: 2vw;
-}
-
-.trustedCompaniesTitle {
-  width: 36vw;
-  font-family: Outfit;
-  font-size: 3.47vw;
-  font-weight: 700;
-  line-height: 4vw;
-  letter-spacing: -0.015em;
-  text-align: left;
-  margin-left: 20%;
-  margin-top: 25%;
-}
-
-.trustedCompaniesTxt {
-  width: 35vw;
-  font-family: Outfit;
-  font-size: 2vw;
-  font-weight: 600;
-  line-height: 2.8vw;
-  letter-spacing: -0.015em;
-  text-align: left;
-  margin-left: 20%;
-  margin-top: 3%;
-}
-
-.accomplishments {
-  align-items: center;
-  display: flex;
-  position: relative;
-  margin-left: 20%;
-  margin-top: 3%;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
-}
-
-.satisfiedClients {
-  width: 7vw;
-  font-family: Outfit;
-  font-size: 3vw;
-  font-weight: 600;
-  line-height: 4vw;
-  letter-spacing: -0.015em;
-  text-align: center;
-  margin: 0;
-}
-
-.satisfiedClientsMini {
-  width: 7vw;
-  font-family: Outfit;
-  font-size: 1.5vw;
-  font-weight: 500;
-  line-height: 2vw;
-  letter-spacing: -0.015em;
-  text-align: center;
-  margin: 0;
-  color: #75718b;
-}
-
-.projectsCompleted {
-  width: 8vw;
-  font-family: Outfit;
-  font-size: 3vw;
-  font-weight: 600;
-  line-height: 4vw;
-  letter-spacing: -0.015em;
-  text-align: center;
-  margin: 0;
-}
-
-.projectsCompletedMini {
-  width: 8vw;
-  font-family: Outfit;
-  font-size: 1.5vw;
-  font-weight: 500;
-  line-height: 2vw;
-  letter-spacing: -0.015em;
-  text-align: center;
-  margin: 0;
-  color: #75718b;
-}
-
-.increaseVolume {
-  width: 10vw;
-  font-family: Outfit;
-  font-size: 3vw;
-  font-weight: 600;
-  line-height: 4vw;
-  letter-spacing: -0.015em;
-  text-align: right;
-  margin: 0;
-}
-
-.increaseVolumeMini {
-  width: 11vw;
-  font-family: Outfit;
-  font-size: 1.5vw;
-  font-weight: 500;
-  line-height: 2vw;
-  letter-spacing: -0.015em;
-  text-align: center;
-  margin: 0;
-  color: #75718b;
-}
-
-.line {
-  content: "";
-  width: 0.1vw;
-  height: 9vw;
-  background-color: #000;
-  position: relative;
-  top: 0;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.tCLogos {
-  width: 35vw;
-  float: right;
-  margin-right: 22%;
-  margin-top: 20%;
-  margin-bottom: 5%;
-}
-
-.tCLogoDiv {
-  margin-bottom: 4%;
-}
-
-.tCLogo {
-  width: 11vw;
-}
-
-.tCLogo:hover {
-  box-shadow: #000 0px 0px 15px;
-  border-radius: 40px;
 }
